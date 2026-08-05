@@ -1,0 +1,14 @@
+using namespace std;
+
+int main()
+{
+    cout<<"Inscribir la base: ";
+    cin>>base;
+    cout<<"Inscribir la altura: ";
+    cin>>altura;
+    area=(base*altura)/2;
+    cout<<"el area es: " <<area;
+    
+
+    return 0;
+}
