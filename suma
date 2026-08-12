@@ -1,0 +1,12 @@
+using namespace std;
+int main(){
+    int a,b,suma;
+    cout << "Ingresar el primer numero: ";
+    cin  >> a;
+    cout << "Ingresar el segundo numero: ";
+    cin  >> b;
+    suma = a+b;
+    cout << "La suma sera: " << suma ;
+    
+    return 0;
+}
