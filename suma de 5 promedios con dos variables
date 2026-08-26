@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B;
+
+    A = 0;
+
+    cout << "Ingrese el primer entero: ";
+    cin >> B;
+    A = A + B;
+
+    cout << "Ingrese el segundo entero: ";
+    cin >> B;
+    A = A + B;
+
+    cout << "Ingrese el tercer entero: ";
+    cin >> B;
+    A = A + B;
+
+    cout << "Ingrese el cuarto entero: ";
+    cin >> B;
+    A = A + B;
+
+    cout << "Ingrese el quinto entero: ";
+    cin >> B;
+    A = A + B;
+
+    cout << "Promedio = " << A / 5.0 << endl;
+
+    return 0;
+}
