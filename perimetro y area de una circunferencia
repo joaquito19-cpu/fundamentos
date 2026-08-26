@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    double r, perimetro, area;
+    double Pi = 3.14;
+
+    cout << "Ingrese el radio: ";
+    cin >> r;
+
+    perimetro = 2 * Pi * r;
+    area = Pi * r * r;
+
+    cout << "Perimetro = " << perimetro << endl;
+    cout << "Area = " << area << endl;
+
+    return 0;
+}
