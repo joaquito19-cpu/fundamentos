@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float A, B, i;
+
+    cout << "Ingrese el valor de A: ";
+    cin >> A;
+
+    cout << "Ingrese el valor de B: ";
+    cin >> B;
+
+    i = A;
+    A = B;
+    B = i;
+
+    cout << "Despues del cambio:" << endl;
+    cout << "A = " << A << endl;
+    cout << "B = " << B << endl;
+
+    return 0;
+}
