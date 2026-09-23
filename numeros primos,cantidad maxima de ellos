@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int n, cont=2;
+    bool flag;
+    cout<<"ingrese el mayor numero a generar de numeros primos";
+    cin>>n;
+    while (cont<n)
+    {
+        flag=true;
+    for(int i=2;i<=sqrt(cont);i++)
+        if(cont%i==0){
+           flag=false;
+           break;
+        }
+        if(flag)
+        cout<<cont<<",";
+        cont++;
+        }
+    return 0;
+}
