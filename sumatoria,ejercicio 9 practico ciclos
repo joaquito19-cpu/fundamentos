@@ -1,0 +1,23 @@
+// autor : Joaquin Escalier A.
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int n;
+    double x, S = 0, fact = 1;
+    cout << "ingresar x numero";
+    cin >> x;
+    cout << " ingresar n numero de veces";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        fact = fact * i;
+        if (i % 2 == 1)
+            S = S + pow(x, i) / fact;
+        else
+            S = S - pow(x, i) / fact;
+    }
+    cout << "la suma es " << S;
+    return 0;
+
+}
